@@ -19,10 +19,20 @@ public class TestDFS extends DepthFirstSearch {
 		l.add(new Pair("B","C"));
 		l.add(new Pair("A","D"));
 		l.add(new Pair("B","D"));
+		
+		// added code
+		l.add(new Pair("E","F"));
+		l.add(new Pair("E","G"));
+		
+		l.add(new Pair("H","I"));
+		l.add(new Pair("I","j"));
+		
 		Graph g = new Graph(l);
 		String s = g.toString();
 		System.out.println(s);
 		DepthFirstSearch dfs = new TestDFS(g);
 		dfs.start();
+		
+		
 	}
 }

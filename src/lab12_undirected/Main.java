@@ -12,6 +12,9 @@ public class Main {
 		l.add(new Pair("B","C"));
 		l.add(new Pair("A","D"));
 		l.add(new Pair("B","D"));
+		
+
+		
 		Graph g = new Graph(l);
 		String s = g.toString();
 		System.out.println(s);
